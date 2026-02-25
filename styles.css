@@ -1,0 +1,115 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body{
+    background: linear-gradient(135deg,#fff1f7,#fdf3e7);
+    color:#333;
+    line-height:1.8;
+}
+
+/* HEADER */
+header{
+    background:white;
+    padding:40px 20px;
+    text-align:center;
+    box-shadow:0 6px 20px rgba(0,0,0,0.05);
+}
+
+header h1{
+    font-size:36px;
+    color:#d94f87;   /* hồng nổi */
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+/* NAVIGATION */
+nav{
+    text-align:center;
+    margin:25px 0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#d94f87;
+    font-weight:600;
+    margin:0 15px;
+    padding:10px 22px;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#ffb6d5;
+    color:white;
+    box-shadow:0 8px 18px rgba(255,182,213,0.5);
+}
+
+/* MAIN */
+main{
+    width:85%;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* CARD SECTION */
+section{
+    background:white;
+    padding:35px;
+    margin:40px 0;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 45px rgba(0,0,0,0.12);
+}
+
+/* TIÊU ĐỀ MỤC */
+section h2{
+    font-size:26px;
+    margin-bottom:20px;
+    color:#c94f7c;
+}
+
+/* CHỮ GIỚI THIỆU */
+section p{
+    font-size:19px;
+    line-height:1.9;
+    color:#222;
+    max-width:750px;
+    margin:0 auto 25px auto;
+}
+
+/* HÌNH ẢNH */
+img{
+    width:60%;
+    max-width:450px;
+    border-radius:18px;
+    display:block;
+    margin:20px auto;
+    transition:0.3s;
+}
+
+img:hover{
+    transform:scale(1.05);
+}
+
+/* FOOTER */
+footer{
+    background:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    font-size:14px;
+    color:#a85c7a;
+    box-shadow:0 -5px 20px rgba(0,0,0,0.05);
+}
