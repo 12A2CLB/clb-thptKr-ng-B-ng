@@ -18,21 +18,22 @@ header{
     background-image: url("truong.jpg");
     background-size: cover;
     background-position: center;
-    padding:120px 20px;
-    text-align:center;
-    color:white;
-    background-color: rgba(0,0,0,0.3);
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.45);
     background-blend-mode: darken;
 }
 
 header h1{
-    font-size:40px;
-    color:white;
-    font-weight:700;
-    letter-spacing:2px;
-    text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
 }
-
 /* NAVIGATION */
 nav{
     text-align:center;
@@ -119,4 +120,5 @@ footer{
     box-shadow:0 -5px 20px rgba(0,0,0,0.05);
 
 }
+
 
