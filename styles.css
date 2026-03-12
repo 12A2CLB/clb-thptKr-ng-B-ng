@@ -15,10 +15,14 @@ body{
 
 /* HEADER */
 header{
-    background:white;
-    padding:40px 20px;
+    background-image: url("truong.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:120px 20px;
     text-align:center;
-    box-shadow:0 6px 20px rgba(0,0,0,0.05);
+    color:white;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
 }
 
 header h1{
@@ -112,4 +116,5 @@ footer{
     font-size:14px;
     color:#a85c7a;
     box-shadow:0 -5px 20px rgba(0,0,0,0.05);
+
 }
