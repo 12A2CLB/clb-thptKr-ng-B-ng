@@ -26,10 +26,11 @@ header{
 }
 
 header h1{
-    font-size:36px;
-    color:#d94f87;   /* hồng nổi */
+    font-size:40px;
+    color:white;
     font-weight:700;
-    letter-spacing:1px;
+    letter-spacing:2px;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.7);
 }
 
 /* NAVIGATION */
@@ -118,3 +119,4 @@ footer{
     box-shadow:0 -5px 20px rgba(0,0,0,0.05);
 
 }
+
